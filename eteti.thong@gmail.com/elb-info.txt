@@ -10,3 +10,36 @@ check healthy instances
 Hi, I'm instance i-08fd7ebac8c645acc
 Hi, I'm instance i-08fd7ebac8c645acc
 Hi, I'm instance i-007f46b73d11876b7
+{
+    "LoadBalancers": [
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:349613135469:loadbalancer/app/assignment17LB/c66321532d2f7155",
+            "DNSName": "assignment17LB-1258393594.us-east-1.elb.amazonaws.com",
+            "CanonicalHostedZoneId": "Z35SXDOTRQ7X7K",
+            "CreatedTime": "2021-10-03T13:52:46.330000+00:00",
+            "LoadBalancerName": "assignment17LB",
+            "Scheme": "internet-facing",
+            "VpcId": "vpc-c01e6fbd",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "application",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-1c",
+                    "SubnetId": "subnet-4b56a307",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "us-east-1e",
+                    "SubnetId": "subnet-8ac4adbb",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "SecurityGroups": [
+                "sg-0fb02068ba158330d"
+            ],
+            "IpAddressType": "ipv4"
+        }
+    ]
+}
