@@ -1,0 +1,12 @@
+Describe my load balancer
+Check healthy instances
+<html>
+<head><title>504 Gateway Time-out</title></head>
+<body>
+<center><h1>504 Gateway Time-out</h1></center>
+</body>
+</html>
+check healthy instances
+Hi, I'm instance i-08fd7ebac8c645acc
+Hi, I'm instance i-08fd7ebac8c645acc
+Hi, I'm instance i-007f46b73d11876b7
