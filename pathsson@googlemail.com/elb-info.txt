@@ -1,39 +1,45 @@
 >>>Describe my load balancer<<<
+{
+    "LoadBalancerDescriptions": []
+}
+{
+    "LoadBalancers": [
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:192775202819:loadbalancer/app/assignment17LB/3a80e5249c8df1c9",
+            "DNSName": "assignment17LB-2072682986.us-east-1.elb.amazonaws.com",
+            "CanonicalHostedZoneId": "Z35SXDOTRQ7X7K",
+            "CreatedTime": "2021-10-03T00:52:07.470000+00:00",
+            "LoadBalancerName": "assignment17LB",
+            "Scheme": "internet-facing",
+            "VpcId": "vpc-033134a5d27f0fa55",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "application",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-1e",
+                    "SubnetId": "subnet-04013536f14b41559",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "us-east-1c",
+                    "SubnetId": "subnet-0c397daa736032db0",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "SecurityGroups": [
+                "sg-0e87846066077690d"
+            ],
+            "IpAddressType": "ipv4"
+        }
+    ]
+}
 >>>Check healthy instances<<<
-<html>
-<head><title>504 Gateway Time-out</title></head>
-<body>
-<center><h1>504 Gateway Time-out</h1></center>
-</body>
-</html>
+Hi, I'm instance i-018252a42eaf40eff
 >>>Check healthy instances<<<
-<html>
-<head><title>504 Gateway Time-out</title></head>
-<body>
-<center><h1>504 Gateway Time-out</h1></center>
-</body>
-</html>
-<html>
-<head><title>504 Gateway Time-out</title></head>
-<body>
-<center><h1>504 Gateway Time-out</h1></center>
-</body>
-</html>
-<html>
-<head><title>504 Gateway Time-out</title></head>
-<body>
-<center><h1>504 Gateway Time-out</h1></center>
-</body>
-</html>
-<html>
-<head><title>504 Gateway Time-out</title></head>
-<body>
-<center><h1>504 Gateway Time-out</h1></center>
-</body>
-</html>
-<html>
-<head><title>504 Gateway Time-out</title></head>
-<body>
-<center><h1>504 Gateway Time-out</h1></center>
-</body>
-</html>
+Hi, I'm instance i-0b076220e2ed91d4b
+Hi, I'm instance i-0b076220e2ed91d4b
+Hi, I'm instance i-018252a42eaf40eff
+Hi, I'm instance i-018252a42eaf40eff
+Hi, I'm instance i-018252a42eaf40eff
