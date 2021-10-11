@@ -1,0 +1,46 @@
+Describe my load balancer
+{
+    "LoadBalancers": [
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:968801951500:loadbalancer/app/Assign17LB/945944eddecdb360",
+            "DNSName": "Assign17LB-2045658930.us-east-1.elb.amazonaws.com",
+            "CanonicalHostedZoneId": "Z35SXDOTRQ7X7K",
+            "CreatedTime": "2021-10-10T23:54:54.320000+00:00",
+            "LoadBalancerName": "Assign17LB",
+            "Scheme": "internet-facing",
+            "VpcId": "vpc-0946a00281f848c9e",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "application",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-1e",
+                    "SubnetId": "subnet-09506eb5d27ddb468",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "us-east-1c",
+                    "SubnetId": "subnet-0979609b88563fc6d",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "SecurityGroups": [
+                "sg-0e75d6f6ad0cdcbfe"
+            ],
+            "IpAddressType": "ipv4"
+        }
+    ]
+}
+Check healthy instances
+<html>
+<head><title>504 Gateway Time-out</title></head>
+<body>
+<center><h1>504 Gateway Time-out</h1></center>
+</body>
+</html>
+Hi, I'm instance i-08a302c27674c924c
+Hi, I'm instance i-0ce9a6646620740b7
+Hi, I'm instance i-08a302c27674c924c
+Hi, I'm instance i-0ce9a6646620740b7
+Hi, I'm instance i-0ce9a6646620740b7
