@@ -1,0 +1,36 @@
+>>>Describe my load balancer<<<
+{
+    "LoadBalancers": [
+        {
+            "LoadBalancerArn": "arn:aws:elasticloadbalancing:us-east-1:990088469739:loadbalancer/app/assignment17LB/7915c3fdf9495846",
+            "DNSName": "assignment17LB-1940015198.us-east-1.elb.amazonaws.com",
+            "CanonicalHostedZoneId": "Z35SXDOTRQ7X7K",
+            "CreatedTime": "2021-10-21T23:37:20.890Z",
+            "LoadBalancerName": "assignment17LB",
+            "Scheme": "internet-facing",
+            "VpcId": "vpc-4f334232",
+            "State": {
+                "Code": "active"
+            },
+            "Type": "application",
+            "AvailabilityZones": [
+                {
+                    "ZoneName": "us-east-1e",
+                    "SubnetId": "subnet-01e98030",
+                    "LoadBalancerAddresses": []
+                },
+                {
+                    "ZoneName": "us-east-1c",
+                    "SubnetId": "subnet-381a3c67",
+                    "LoadBalancerAddresses": []
+                }
+            ],
+            "SecurityGroups": [
+                "sg-03a9c5ab5dd451dc3"
+            ],
+            "IpAddressType": "ipv4"
+        }
+    ]
+}
+>>>Check healthy instances<<<
+Hi, I'm instance i-028f5a42a9214518a
